@@ -1,0 +1,10 @@
+export const GET_ERRORS = "GET_ERRORS";
+export const USER_LOADING = "USER_LOADING";
+export const SET_QR_DATA = "SET_QR_DATA";
+export const SET_CURRENT_USER = "SET_CURRENT_USER";
+export const START_REQUEST = "server/sendRequest";
+export const SEND_AUTH_REQUEST = "server/sendAuthRequest";
+export const UPDATE_REQUEST = "server/UPDATE_REQUEST";
+export const APPROVE_LOGIN = "server/APPROVE_LOGIN";
+export const REJECT_LOGIN = "server/REJECT_LOGIN";
+export const RESET_LOGIN = "RESET_LOGIN";
