@@ -11,7 +11,7 @@ For the sample to work properly, you'll need a few things:
 * A MongoDB database set up
 * A publicly-reachable location to host the site
 
-Instructions on the first two requirements can be found in our [Quick Start guide](https://tech.privakey.com/cloudAdoption/pkCloudGettingStarted).
+Instructions on the first two requirements can be found in our [Quick Start guide](https://tech.privakey.com/cloudAdoption/pkCloudGettingStarted). When creating the Request Origin, you will need to supply a callback of the form <hosted-site-url>/auth/processRequest, E.G. https://milo.sample.com/auth/processRequest.
 
 The site has to be publicly-reachable because it requires a callback from Privakey CX.
 
