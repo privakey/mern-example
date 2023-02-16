@@ -1,4 +1,4 @@
-# Milo App
+# Privakey Sample Application - "Milo"
 
 Milo is a sample project that integrates [Privakey](https://www.privakey.com) into a MERN app. 
 
@@ -8,7 +8,7 @@ The purpose of this project is to provide code samples and usage examples of Pri
 
 For the sample to work properly, you'll need a few things:
 
-## The AuthWallet App installed on your mobile device
+### The AuthWallet App installed on your mobile device
 
 AuthWallet is available in the [iOS App Store](https://apps.apple.com/us/app/authwallet/id1552057206) or [Android Play Store](https://play.google.com/store/apps/details?id=com.privakey.authwallet&gl=US)
 
