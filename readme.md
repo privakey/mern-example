@@ -1,6 +1,8 @@
 # Milo App
 
-Milo is a sample project that integrates [PrivakeyCX](https://www.privakey.com) into a MERN app. The purpose of this project is to provide code samples and usage examples of PrivakeyCX. The project covers logging in to the example site with Privakey, and allows an authenticated user to send a Privakey challenge request to themselves via the mobile app AuthWallet (available on [Google Play](https://play.google.com/store/apps/details?id=com.privakey.authwallet) and [App Store](https://apps.apple.com/us/app/authwallet/id1552057206)).
+Milo is a sample project that integrates [Privakey](https://www.privakey.com) into a MERN app. 
+
+The purpose of this project is to provide code samples and usage examples of Privakey ID. The project covers logging in to the example site with Privakey, and allows an authenticated user to send a Privakey challenge request to themselves via the mobile app AuthWallet (available on [Google Play](https://play.google.com/store/apps/details?id=com.privakey.authwallet) and [App Store](https://apps.apple.com/us/app/authwallet/id1552057206)).
 
 ## Before You Begin
 
@@ -12,20 +14,15 @@ AuthWallet is available in the [iOS App Store](https://apps.apple.com/us/app/aut
 
 ### A publicly-reachable location to host the site
 
-Since the Privakey Auth service relies on an addressable api call back to the originating service this sample app must be hosted to fully test privakey.  
+Since the Privakey Auth service relies on an addressable api call back to the originating service this sample app must be hosted to fully test Privakey.  There are numerous MERN stack hosting sites.  We reccomend using Heroku.
 
 ### A Relying Party set up on Privakey Cloud
 
-Instructions for accessing Privakey Cloud and setting up a relying party can be found at our [Quick Start guide](https://tech.privakey.com/). When creating the Request Origin, you will need to supply a callback of the form <hosted-site-url>/auth/processRequest, E.G. https://milo.sample.com/auth/processRequest.
+Instructions for accessing Privakey Cloud and setting up a relying party can be found at our [Quick Start guide](https://tech.privakey.com/). When creating the Request Origin, you will need to supply a callback of the form `<hosted-site-url>/auth/processRequest`, E.G. `https://milo.sample.com/auth/processRequest`.
 
 ### A MongoDB database set up
-If you do not have access to a MongoDB instance we reccomend signing up for a free account at MongoDB.
 
-
-After you're fully set up, make sure you update the config values in `config/default.json`.
-
-## Deploying this Codebase
-There are many MERN stack hosting options.  We reccomend using Heroku.
+If you do not have access to a MongoDB instance we reccomend signing up for a free account at MongoDB.  Once set up you will need to update `config\default.json` with a connection string.
 
 ## Code Outline
 
@@ -46,7 +43,6 @@ The QR Code construction happens in `client/src/components/auth/QrCodeDisplay.js
 >
 > When using Privakey Libraries within your on application the Binding process does not need to rely on QR codes.
 >
-
 
 ### Log In
 
